@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.calc{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    padding: 0em 0em;
+    margin: 5em 25em;
+}
+.row{
+    display: flex;
+}
+.row input{
+    padding: 1em 1em;
+    width: 9.78em;
+
+}
+.row1,.row2,.row3,.row4,.row5{
+    display: flex;
+    position: relative;
+}
+.row1 div input{ 
+    padding: 1em 1em;
+    width: 3em;
+}
+.row2 div input{ 
+    padding: 1em 1em;
+    width: 3em;
+}
+.row3 div input{ 
+    padding: 1em 1em;
+    width: 3em;
+}
+.row3 div input{ 
+    padding: 1em 1em;
+    width: 3em;
+}
+.row4 div input{ 
+    padding: 1em 1em;
+    width: 3em;
+}
+.row5 div input{ 
+    padding: 1em 1em;
+    width: 3em;
+}
+body{
+    background:linear-gradient(90deg,lightblue,lightgreen);
+}
+@media screen and (max-width:768px) {
+    .calc{
+        margin: 2em 5em;
+    }    
+}
