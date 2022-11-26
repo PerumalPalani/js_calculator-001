@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Between Date</title>
+    <link rel="stylesheet" href="./bwDate.css">
+</head>
+<body>
+    <form action="#" id="dateId">
+        <div>
+            <h1>Date form:</h1>
+        </div>
+        <div>
+            <label for="start">Starting Date:</label>
+            <input type="date" name="start01" id="start01Id">
+        </div>
+        <div>
+            <label for="end">Ending Date:</label>
+            <input type="date" name="end01" id="end01Id">
+        </div>
+        <div>
+            <label for="days">Select Days(0-6):</label>
+            <select name="days01" id="days01Id">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        </div>
+        <div id="btn">
+            <input type="button" value="submit" onclick="resultFun()">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+    <script src="./bwDate.js"></script>
+</body>
+
+</html>
