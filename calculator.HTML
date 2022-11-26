@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./asserts/calculator.css">
+</head>
+<body>
+    <div class="calc">
+        <div class="row">
+            <input type="text" name="answer" id="answer">
+        </div>
+        <div class="row1">
+            <div><input name="cancel" type="button" value="c" onclick="answer.value =' '"></div>
+            <div><input name="modulus" type="button" value="%" onclick="answer.value+='%'"></div>
+            <div><input name="divide" type="button" value="/" onclick="answer.value+='/'"></div>
+            <div><input name="back" type="button" value="b" onclick="back()"></div>
+        </div>
+        <div class="row2">
+            <div><input name="one" type="button" value="1" onclick="answer.value+='1'"></div>
+            <div><input name="two" type="button" value="2" onclick="answer.value+='2'"></div>
+            <div><input name="three" type="button" value="3" onclick="answer.value+='3'"></div>
+            <div><input name="multiply" type="button" value="*" onclick="answer.value+='*'"></div>
+        </div>
+        <div class="row3">
+            <div><input name="four" type="button" value="4" onclick="answer.value+='4'"></div>
+            <div><input name="five" type="button" value="5" onclick="answer.value+='5'"></div>
+            <div><input name="six" type="button" value="6" onclick="answer.value+='6'"></div>
+            <div><input name="minus" type="button" value="-" onclick="answer.value+='-'"></div>
+        </div>
+        <div class="row4">
+            <div><input name="seven" type="button" value="7" onclick="answer.value+='7'"></div>
+            <div><input name="eight" type="button" value="8" onclick="answer.value+='8'"></div>
+            <div><input name="nine" type="button" value="9" onclick="answer.value+='9'"></div>
+            <div><input name="addition" type="button" value="+" onclick="answer.value+='+'"></div>
+        </div>
+        <div class="row5">
+            <div><input name="dot" type="button" value="." onclick="answer.value+='.'"></div>
+            <div><input name="zero" type="button" value="0" onclick="answer.value+='0'"></div>
+            <div><input name="equal" type="button" value="=" onclick="calc()"></div>
+            <div><input name="paranthesis" type="button" value="()" onclick="paraOpen()"></div>
+        </div>
+    </div>
+    <script src="./asserts/./calculator.js"></script>
+</body>
+</html>
